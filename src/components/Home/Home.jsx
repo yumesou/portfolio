@@ -12,14 +12,6 @@ export default props => {
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 1000;
 
-    useEffect(() => {   
-        let ticker = setInterval(() => {
-            tick();
-        }, delta);
-
-        return () => { clearInterval(ticker) };
-    }, [text])
-
     const tick = () => {
         let fullText = 'Web Developer';
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
@@ -34,6 +26,13 @@ export default props => {
             setDelta(500);
         }
     }
+    useEffect(() => {   
+        let ticker = setInterval(() => {
+            tick();
+        }, delta);
+
+        return () => { clearInterval(ticker) };
+    }, [text])
     return(
         <section id="home">
             <div className="texts">

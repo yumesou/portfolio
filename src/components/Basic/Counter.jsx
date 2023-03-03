@@ -1,6 +1,5 @@
 import React from "react";
 import './Counter.css'
-import { keyframes } from "styled-components";
 
 // eslint-disable-next-line
 export default props => {
@@ -20,7 +19,7 @@ export default props => {
                     </linearGradient>
                 </defs>
                 <circle cx={Number(size)/2} cy={Number(size)/2} r={Number(size)/2 - 15} stroke={'url(#GradientColor)'} 
-                fill='none' strokeWidth='15px' strokeDasharray={dasharray} strokeDashoffset={progress}
+                fill='none' strokeWidth='15px' strokeDasharray={dasharray} strokeDashoffset={dasharray - progress}
                 strokeLinecap="round" />
             </svg>
             <div className="icon">

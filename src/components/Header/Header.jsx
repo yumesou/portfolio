@@ -14,9 +14,9 @@ export default props =>
                 <li><a href="#projects">Projects</a></li>
             </ul>
             <ul className="list-social">
-                <li><a href="#"><img src="assets/img/header/git.svg" alt="git" /></a></li>
-                <li><a href="#"><img src="assets/img/header/youtube.svg" alt="yt" /></a></li>
-                <li><a href="#"><img src="assets/img/header/linkedin.svg" alt="lkin" /></a></li>
+                <li><a href="https://github.com/yumesou" target='_blank' rel="noreferrer"><img src="assets/img/header/git.svg" alt="git" /></a></li>
+                <li><a href="https://canarys.store/youtube" target='_blank' rel="noreferrer"><img src="assets/img/header/youtube.svg" alt="yt" /></a></li>
+                <li><a href="https://www.linkedin.com/in/yume-souza-b406a0268/" target='_blank' rel="noreferrer"><img src="assets/img/header/linkedin.svg" alt="lkin" /></a></li>
             </ul>
         </div>
     </div>

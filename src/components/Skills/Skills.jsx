@@ -34,8 +34,8 @@ export default props => {
               <div className="col-12">
                 <div className="skill-bx wow zoomIn">
                     <h2 className="title-skills">Minhas habilidades</h2>
-                    <p>
-                      Veja aqui quais são as ferramentas nas quais utilizo no meu dia-dia!
+                    <p className="desc-skills">
+                      Veja aqui quais são as ferramentas e competencias nas quais utilizo e desenvolvo no meu dia-dia!
                     </p>
                     <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                         <Counter title='Javascript' percent='50' size='200'/>

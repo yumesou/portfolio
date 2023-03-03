@@ -1,0 +1,29 @@
+.project {
+    padding: 5%;
+    margin-top: 80px;
+    background-color: #121212;
+}
+
+.project-title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.project-desc {
+    color: #B8B8B8;
+    font-size: 1.1rem;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 56%;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    flex: 1;
+}
