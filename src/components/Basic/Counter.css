@@ -1,0 +1,28 @@
+.contador {
+    border-radius: 50%;
+    
+    position: relative;
+
+    margin: 20px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon .percent {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.icon .title {
+    font-size: 1.4rem;
+    font-weight: 600;
+}

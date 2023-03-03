@@ -1,0 +1,28 @@
+.skill {
+    padding: 0 0 50px 0;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.skill-bx {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 50px 50px 20px 20px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.title-skills {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
