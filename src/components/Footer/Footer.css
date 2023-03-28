@@ -1,0 +1,49 @@
+footer {
+    width: 90%;
+    height: 230px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.logoFooter {
+    width: 10%;
+    margin: auto 0;
+}
+
+.footer-social {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.footer-social li {
+    margin: auto 10px;
+}
+
+.footer-social li img {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #fff;
+    fill: #fff;
+    border-radius: 25px;
+}
+
+.footer-social li img:hover {
+    color: #fff;
+    transform: scale(1.05);
+    transition: all 800ms;
+}
+
+.copy {
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.copy p {
+    margin-top: 10px;
+}

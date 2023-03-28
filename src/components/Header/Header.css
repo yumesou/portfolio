@@ -69,3 +69,7 @@
     transform: scale(1.05);
     transition: all 800ms;
 }
+
+.mobile {
+    display: none;
+}

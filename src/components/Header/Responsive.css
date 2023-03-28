@@ -1,0 +1,39 @@
+@media (max-width:900px) { 
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+        margin-right: 8px;
+    }
+    .header {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translateX(0);
+        width: 100%;
+        border-radius: 0;
+    }
+    .logo {
+        width: 35px;
+        height: 35px;
+        margin: auto 5px;
+    }
+    .list-links li {
+        width: 20px;
+        height: 20px;
+        margin: auto 5px;
+    }
+    .list-social li {
+        margin: auto 5px;
+    }
+    .list-social li img {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width:444px) {
+}

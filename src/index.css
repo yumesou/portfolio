@@ -20,6 +20,10 @@ body {
     font-family: 'Poppins', sans-serif !important;
 }
 
+textarea {
+    font-family: 'Poppins', sans-serif !important;
+}
+
 h1,
 h2,
 h3,
@@ -51,6 +55,7 @@ img {
     height: auto;
 }
 
+input,
 button {
     border: 0;
     background-color: transparent;
@@ -60,4 +65,25 @@ input:focus,
 textarea:focus,
 select:focus {
     outline: none;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */ * {
+    scrollbar-width: thin;
+    scrollbar-color: #aab #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #aaaaaa00;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #aab;
+    border-radius: 6px;
+    border: 1px solid #aaaaaa00;
 }
