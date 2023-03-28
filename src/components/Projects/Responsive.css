@@ -1,0 +1,18 @@
+@media (max-width: 900px) { 
+    .project {
+        padding: 5% 2%;
+    }
+    .project-title {
+        font-size: 2rem;
+    }
+    .project-desc {
+        font-size: 1rem;
+        margin: 10px auto 15px auto;
+        width: 80%;
+    }
+    .proj-imgbx {
+        width: 80%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+}

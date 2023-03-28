@@ -1,0 +1,25 @@
+@media (max-width:900px) { 
+    footer {
+        width: 95%;
+        height: 150px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .logoFooter {
+        width: 12%;
+    }
+    
+    .footer-social li {
+        margin: auto 8px;
+    }
+    .footer-social li img {
+        height: 30px;
+        padding: 3px;
+        border-radius: 15px;
+    }
+    .copy p {
+        font-size: 0.7rem;
+        margin-top: 5px;
+    }
+}

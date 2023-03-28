@@ -1,0 +1,20 @@
+@media (max-width: 900px) { 
+    #home {
+        width: 95%;
+        justify-content: space-between;
+        margin: 80px auto;
+    }
+    
+    .texts {
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .image {
+        z-index: 1;
+        width: 70%;
+        margin: 30px 0 100px;
+        opacity: 0.87;
+    }
+}

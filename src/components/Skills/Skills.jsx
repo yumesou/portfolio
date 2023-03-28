@@ -4,6 +4,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Counter from "../Basic/Counter";
 import './Skills.css'
+import './Responsive.css'
 
 
 // eslint-disable-next-line

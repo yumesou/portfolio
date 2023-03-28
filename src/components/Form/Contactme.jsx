@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import './Contactme.css';
 import TrackVisibility from 'react-on-screen';
+import './Contactme.css';
+import './Responsive.css';
 
 import svgPeaple from '../../assets/img/contact/peaple.svg';
 

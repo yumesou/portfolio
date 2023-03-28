@@ -1,5 +1,6 @@
 import React from "react";
 import './Footer.css';
+import './Responsive.css';
 
 import Logo from '../../assets/img/logo.svg';
 

@@ -4,6 +4,7 @@ import TrackVisibility from 'react-on-screen';
 import headerImg from '../../assets/img/home/icon.svg';
 import 'animate.css';
 import './Home.css';
+import './Responsive.css';
 
 // eslint-disable-next-line
 export default props => {
@@ -32,6 +33,7 @@ export default props => {
         }, delta);
 
         return () => { clearInterval(ticker) };
+        // eslint-disable-next-line
     }, [text])
     return(
         <section id="home">
