@@ -42,7 +42,7 @@ export default props => {
                 {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <span className="tagline">Bem-vindo(a/e) ao meu portfólio!</span>
-                    <h1 className="home-title">{`Olá! Sou Yume,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                    <h1 className="home-title">{`Olá! Sou Yume,`} <span className="wrap">{text}</span></h1>
                 </div>}
                 </TrackVisibility>
             </div>
