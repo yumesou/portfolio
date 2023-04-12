@@ -1,4 +1,5 @@
 import './Card.css';
+import React from 'react';
 
 // eslint-disable-next-line
 export const ProjectCard = ({ url, title, description, imgUrl }) => {
