@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b20e61db25a6471cdc53",
+    "revision": "0e12ba00a3af37111f17",
     "url": "/static/css/main.73d928dd.chunk.css"
   },
   {
-    "revision": "b20e61db25a6471cdc53",
-    "url": "/static/js/main.b20e61db.chunk.js"
+    "revision": "0e12ba00a3af37111f17",
+    "url": "/static/js/main.0e12ba00.chunk.js"
   },
   {
     "revision": "1af3950e2f8d41bb904e",
@@ -56,10 +56,6 @@ self.__precacheManifest = [
     "url": "/static/media/background.5f3ca497.png"
   },
   {
-    "revision": "17629a5dfe0d3c3946cf401e1895f091",
-    "url": "/static/media/revicons.17629a5d.ttf"
-  },
-  {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
     "url": "/static/media/revicons.04eb8fc5.woff"
   },
@@ -68,7 +64,11 @@ self.__precacheManifest = [
     "url": "/static/media/revicons.2feb69cc.eot"
   },
   {
-    "revision": "37b0b9cd99d7f80130a45ac23d9bcdf1",
+    "revision": "17629a5dfe0d3c3946cf401e1895f091",
+    "url": "/static/media/revicons.17629a5d.ttf"
+  },
+  {
+    "revision": "15071955f37ec947f2f5e7b5b7256d32",
     "url": "/index.html"
   }
 ];

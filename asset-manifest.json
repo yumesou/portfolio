@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.73d928dd.chunk.css",
-  "main.js": "/static/js/main.b20e61db.chunk.js",
-  "main.js.map": "/static/js/main.b20e61db.chunk.js.map",
+  "main.js": "/static/js/main.0e12ba00.chunk.js",
+  "main.js.map": "/static/js/main.0e12ba00.chunk.js.map",
   "static/css/1.6d3368a0.chunk.css": "/static/css/1.6d3368a0.chunk.css",
   "static/js/1.1af3950e.chunk.js": "/static/js/1.1af3950e.chunk.js",
   "static/js/1.1af3950e.chunk.js.map": "/static/js/1.1af3950e.chunk.js.map",
@@ -16,10 +16,10 @@
   "static/media/peaple.svg": "/static/media/peaple.a8822e20.svg",
   "static/media/logo.svg": "/static/media/logo.a793de69.svg",
   "static/media/App.css": "/static/media/background.5f3ca497.png",
-  "static/media/styles.css": "/static/media/revicons.2feb69cc.eot",
+  "static/media/styles.css": "/static/media/revicons.17629a5d.ttf",
   "static/css/main.73d928dd.chunk.css.map": "/static/css/main.73d928dd.chunk.css.map",
   "static/css/1.6d3368a0.chunk.css.map": "/static/css/1.6d3368a0.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c4f853d1c1c1045f2e2eed682ea04d94.js": "/precache-manifest.c4f853d1c1c1045f2e2eed682ea04d94.js",
+  "precache-manifest.ad4fc95584c8e7ac7f8e48600c8838ce.js": "/precache-manifest.ad4fc95584c8e7ac7f8e48600c8838ce.js",
   "service-worker.js": "/service-worker.js"
 }
