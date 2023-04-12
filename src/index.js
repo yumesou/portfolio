@@ -6,9 +6,9 @@ import './index.css';
 
 import App from './App.jsx';
 
-const { render } = createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById('root'));
 
-render(
+root.render(
     <Router>
         <App/>
     </Router>,
